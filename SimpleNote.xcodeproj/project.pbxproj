@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CE69CE832690AF4D0031967C /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69CE822690AF4D0031967C /* ListRowView.swift */; };
 		CE69CE852690B39D0031967C /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69CE842690B39D0031967C /* AddView.swift */; };
+		CE69CE882690BAD20031967C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69CE872690BAD20031967C /* Item.swift */; };
+		CE69CE8B2690C3150031967C /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69CE8A2690C3150031967C /* ListViewModel.swift */; };
 		CE76564A2690A9370052CA49 /* SimpleNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7656492690A9370052CA49 /* SimpleNoteApp.swift */; };
 		CE76564E2690A93A0052CA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE76564D2690A93A0052CA49 /* Assets.xcassets */; };
 		CE7656512690A93A0052CA49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7656502690A93A0052CA49 /* Preview Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		CE69CE822690AF4D0031967C /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		CE69CE842690B39D0031967C /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		CE69CE872690BAD20031967C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CE69CE8A2690C3150031967C /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		CE7656462690A9370052CA49 /* SimpleNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7656492690A9370052CA49 /* SimpleNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNoteApp.swift; sourceTree = "<group>"; };
 		CE76564D2690A93A0052CA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE69CE862690BAB10031967C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE69CE872690BAD20031967C /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE69CE892690C2D50031967C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE69CE8A2690C3150031967C /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		CE76563D2690A9370052CA49 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				CE7656492690A9370052CA49 /* SimpleNoteApp.swift */,
+				CE69CE862690BAB10031967C /* Models */,
+				CE69CE892690C2D50031967C /* ViewModels */,
 				CE7656582690AA5E0052CA49 /* Views */,
 				CE76564D2690A93A0052CA49 /* Assets.xcassets */,
 				CE7656522690A93A0052CA49 /* Info.plist */,
@@ -152,7 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE69CE882690BAD20031967C /* Item.swift in Sources */,
 				CE69CE852690B39D0031967C /* AddView.swift in Sources */,
+				CE69CE8B2690C3150031967C /* ListViewModel.swift in Sources */,
 				CE76565A2690AAD90052CA49 /* ListView.swift in Sources */,
 				CE76564A2690A9370052CA49 /* SimpleNoteApp.swift in Sources */,
 				CE69CE832690AF4D0031967C /* ListRowView.swift in Sources */,
