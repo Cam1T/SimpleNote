@@ -16,6 +16,7 @@
 		CE7656512690A93A0052CA49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7656502690A93A0052CA49 /* Preview Assets.xcassets */; };
 		CE76565A2690AAD90052CA49 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7656592690AAD90052CA49 /* ListView.swift */; };
 		CE8F5AFE2691E923005D576A /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F5AFD2691E923005D576A /* NoItemsView.swift */; };
+		CEE5CFEA26931CCF00487CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE5CFE926931CCF00487CCD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CE7656522690A93A0052CA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7656592690AAD90052CA49 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CE8F5AFD2691E923005D576A /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		CEE5CFE926931CCF00487CCD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				CE69CE822690AF4D0031967C /* ListRowView.swift */,
 				CE69CE842690B39D0031967C /* AddView.swift */,
 				CE8F5AFD2691E923005D576A /* NoItemsView.swift */,
+				CEE5CFE926931CCF00487CCD /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE5CFEA26931CCF00487CCD /* LaunchScreen.storyboard in Resources */,
 				CE7656512690A93A0052CA49 /* Preview Assets.xcassets in Resources */,
 				CE76564E2690A93A0052CA49 /* Assets.xcassets in Resources */,
 			);
